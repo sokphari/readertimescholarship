@@ -7,7 +7,7 @@ export default function ExamDashboard() {
   
   // Timer States
   const [isExamStarted, setIsExamStarted] = useState(false);
-  const [timeLeft, setTimeLeft] = useState(10); // ២ ម៉ោង
+  const [timeLeft, setTimeLeft] = useState(2 * 60 * 60); // ២ ម៉ោង
 
   // State សម្រាប់គ្រប់គ្រងការបង្ហាញ Alert ពិសេស (Custom Modal)
   const [showSpecialAlert, setShowSpecialAlert] = useState(false);
